@@ -2,13 +2,21 @@ package com.cursogetafe.jpa.ejemplo03;
 
 import java.io.Serializable;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+
+
+@Embeddable // no es insertable 
 public class Domicilio implements Serializable{
 
+	//@Column(name = "tipovia")
 	private String tipoVia;
 	private String via;
 	private int numero;
 	private int piso;
 	private String puerta;
+	
+	//@Column(name = "codigopostal")
 	private String codigoPostal;
 	private String ciudad;
 	private String provincia;
@@ -80,8 +88,8 @@ public class Domicilio implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Domicilio [" + tipoVia + "," + via + "," + numero + "," + piso + ","
-				+ puerta + "," + codigoPostal + "," + ciudad + "," + provincia + "]";
+		return "Domicilio [tipoVia=" + tipoVia + ", via=" + via + ", numero=" + numero + ", piso=" + piso + ", puerta="
+				+ puerta + ", codigoPostal=" + codigoPostal + ", ciudad=" + ciudad + ", provincia=" + provincia + "]";
 	}
 	
 	

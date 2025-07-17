@@ -10,6 +10,7 @@
 
 		<class>com.cursogetafe.jpa.ejemplo01.Persona</class>
 		<class>com.cursogetafe.jpa.ejemplo02.Persona02</class>
+		<class>com.cursogetafe.jpa.ejemplo03.Persona03</class>
 
         <properties>
             <!-- JDBC -->

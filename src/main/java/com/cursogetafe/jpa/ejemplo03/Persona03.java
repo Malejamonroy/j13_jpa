@@ -3,6 +3,8 @@ package com.cursogetafe.jpa.ejemplo03;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.AttributeOverride;
+import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,6 +28,8 @@ public class Persona03 implements Serializable{
 	private String dni;
 	
 	@Embedded
+	@AttributeOverride(name = "tipoVia", column = @Column(name = "tipovia")) //
+	@AttributeOverride(name = "codigoPostal", column = @Column(name = "codigopostal"))
 	private Domicilio dom;
 
 	public int getIdPersona() {
