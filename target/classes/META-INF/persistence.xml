@@ -25,6 +25,10 @@
 		<class>com.cursogetafe.jpa.ejemplo09unoauno.Contacto</class>
 		<class>com.cursogetafe.jpa.ejemplo09unoauno.Domicilio</class>
 		<class>com.cursogetafe.jpa.ejemplo10elementcollection.ContactoConTelefonos</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Campo</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Campo2</class>
+		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido2</class>
 
         <properties>
             <!-- JDBC -->
