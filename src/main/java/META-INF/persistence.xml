@@ -29,6 +29,8 @@
 		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido</class>
 		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Campo2</class>
 		<class>com.cursogetafe.jpa.ejemplo11muchosauno.Partido2</class>
+		<class>com.cursogetafe.jpa.ejemplo12muchosamuchos.Equipo</class>
+		<class>com.cursogetafe.jpa.ejemplo12muchosamuchos.Jugador</class>
 
         <properties>
             <!-- JDBC -->
